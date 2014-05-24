@@ -19,4 +19,72 @@ Activity- Activity preformed when metrics recorded. The activities include
 * Walking downstairs
 * Sitting
 * Standing
-* * Laying
+* Laying
+
+tBodyAcc-mean()-X -- Mean of body acceleration in the X direction by accelerometer      
+tBodyAcc-mean()-Y           
+tBodyAcc-mean()-Z          
+tBodyAcc-std()-X  -- Standard deviation of body acceleration in the X direction by accelerometer   
+tBodyAcc-std()-Y            
+tBodyAcc-std()-Z            
+tGravityAcc-mean()-X -- Mean of gravity acceleration in the X direction by accelerometer   
+tGravityAcc-mean()-Y       
+tGravityAcc-mean()-Z        
+tGravityAcc-std()-X -- Standard deviation of gravity acceleration in the X direction by accelerometer        
+tGravityAcc-std()-Y       
+tGravityAcc-std()-Z         
+tBodyAccJerk-mean()-X -- Mean of body acceleration derived by linear and angular acceleration in the X direction measured by accelerometer      
+tBodyAccJerk-mean()-Y       
+tBodyAccJerk-mean()-Z       
+tBodyAccJerk-std()-X -- Standard deviation of body acceleration derived by linear and angular acceleration in the X direction measured by accelerometer      
+tBodyAccJerk-std()-Y        
+tBodyAccJerk-std()-Z        
+tBodyGyro-mean()-X  -- Mean of body acceleration in the X direction by gyroscope
+tBodyGyro-mean()-Y          
+tBodyGyro-mean()-Z          
+tBodyGyro-std()-X  -- Standard deviation of body acceleration in the X direction by gyroscope         
+tBodyGyro-std()-Y           
+tBodyGyro-std()-Z           
+tBodyGyroJerk-mean()-X -- Mean of body acceleration derived by linear and angular acceleration in the X direction measured by gyroscope           
+tBodyGyroJerk-mean()-Y      
+tBodyGyroJerk-mean()-Z      
+tBodyGyroJerk-std()-X  -- Standard deviation of body acceleration derived by linear and angular acceleration in the X direction measured by gyroscope    
+tBodyGyroJerk-std()-Y       
+tBodyGyroJerk-std()-Z       
+tBodyAccMag-mean() -- Mean magnitude of body measured by accelerometer        
+tBodyAccMag-std() -- Standard deviation of body measured by accelerometer        
+tGravityAccMag-mean() -- Mean magnitude of gravity measured by accelerometer       
+tGravityAccMag-std() -- Standard deviation of gravity measured by accelerometer       
+tBodyAccJerkMag-mean()      
+tBodyAccJerkMag-std()       
+tBodyGyroMag-mean()        
+[tBodyGyroMag-std()          
+tBodyGyroJerkMag-mean()    
+tBodyGyroJerkMag-std()     
+fBodyAcc-mean()-X           
+fBodyAcc-mean()-Y           
+fBodyAcc-mean()-Z         
+fBodyAcc-std()-X            
+fBodyAcc-std()-Y            
+fBodyAcc-std()-Z           
+fBodyAccJerk-mean()-X      
+fBodyAccJerk-mean()-Y       
+fBodyAccJerk-mean()-Z      
+fBodyAccJerk-std()-X        
+fBodyAccJerk-std()-Y        
+fBodyAccJerk-std()-Z       
+fBodyGyro-mean()-X          
+fBodyGyro-mean()-Y          
+fBodyGyro-mean()-Z         
+fBodyGyro-std()-X          
+fBodyGyro-std()-Y           
+fBodyGyro-std()-Z
+fBodyAccMag-mean()          
+fBodyAccMag-std()           
+fBodyBodyAccJerkMag-mean() 
+fBodyBodyAccJerkMag-std()   
+fBodyBodyGyroMag-mean()     
+fBodyBodyGyroMag-std()     
+fBodyBodyGyroJerkMag-mean() 
+fBodyBodyGyroJerkMag-std()
+
