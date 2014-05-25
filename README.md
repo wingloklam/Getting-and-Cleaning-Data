@@ -1,5 +1,5 @@
-##ReadMe
-Getting-and-Cleaning-Data
+ReadMe
+##Getting-and-Cleaning-Data
 =========================
 The repository contains an R script titled "run_analysis.R" and CodeBook that identifies the data associated with the R script results. 
 
