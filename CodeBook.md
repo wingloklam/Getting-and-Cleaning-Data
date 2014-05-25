@@ -12,7 +12,9 @@ More information on source of the project can be found here
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 The codebook follows--
+
 Subject- Participant recorded
+
 Activity- Activity preformed when metrics recorded. The activities include
 * Walking
 * Walking upstairs
