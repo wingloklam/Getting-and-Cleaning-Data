@@ -5,7 +5,11 @@ The repository contains an R script titled "run_analysis.R" and CodeBook that id
 
 The R script manipulates data collected using accelerometers and gyroscope imbedded in the Samsung Galaxy S smartphone. A total of 30 participants preformed different activities while the smartphones were attached to their waist. The resulting metrics were recorded and can be found in the following source. 
 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+More details on the process can be found at the following link. 
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The participants were randomly split between the test and train group. The data associated with the subjects are located within "subject_train.txt" and "subject_test.txt" while activities are in the files "y_test.txt" and "y_train.txt." Finally, the metrics collected are located in "X_test.txt" and "X_train.txt." "Run_analysis.R" merges the data from each of these files and provides the headers by referring to "features.txt" which is also located in the source zip file. A key is also provided in the zip file, "activity_labels.txt", which is used to convert numerical records for activity into plain text. 
 
