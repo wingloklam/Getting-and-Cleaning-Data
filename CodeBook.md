@@ -22,69 +22,69 @@ Activity- Activity preformed when metrics recorded. The activities include
 * Laying
 
 tBodyAcc-mean()-X -- Mean of body acceleration in the X direction by accelerometer      
-tBodyAcc-mean()-Y           
-tBodyAcc-mean()-Z          
+tBodyAcc-mean()-Y -- Mean of body acceleration in the Y direction by accelerometer          
+tBodyAcc-mean()-Z -- Mean of body acceleration in the Z direction by accelerometer         
 tBodyAcc-std()-X  -- Standard deviation of body acceleration in the X direction by accelerometer   
-tBodyAcc-std()-Y            
-tBodyAcc-std()-Z            
+tBodyAcc-std()-Y  -- Standard deviation of body acceleration in the Y direction by accelerometer          
+tBodyAcc-std()-Z  -- Standard deviation of body acceleration in the Z direction by accelerometer          
 tGravityAcc-mean()-X -- Mean of gravity acceleration in the X direction by accelerometer   
-tGravityAcc-mean()-Y       
-tGravityAcc-mean()-Z        
+tGravityAcc-mean()-Y -- Mean of gravity acceleration in the Y direction by accelerometer      
+tGravityAcc-mean()-Z -- Mean of gravity acceleration in the Z direction by accelerometer       
 tGravityAcc-std()-X -- Standard deviation of gravity acceleration in the X direction by accelerometer        
-tGravityAcc-std()-Y       
-tGravityAcc-std()-Z         
+tGravityAcc-std()-Y -- Standard deviation of gravity acceleration in the Y direction by accelerometer      
+tGravityAcc-std()-Z -- Standard deviation of gravity acceleration in the Z direction by accelerometer        
 tBodyAccJerk-mean()-X -- Mean of body acceleration derived by linear and angular acceleration in the X direction measured by accelerometer      
-tBodyAccJerk-mean()-Y       
-tBodyAccJerk-mean()-Z       
+tBodyAccJerk-mean()-Y -- Mean of body acceleration derived by linear and angular acceleration in the Y direction measured by accelerometer      
+tBodyAccJerk-mean()-Z -- Mean of body acceleration derived by linear and angular acceleration in the Z direction measured by accelerometer     
 tBodyAccJerk-std()-X -- Standard deviation of body acceleration derived by linear and angular acceleration in the X direction measured by accelerometer      
-tBodyAccJerk-std()-Y        
-tBodyAccJerk-std()-Z        
+tBodyAccJerk-std()-Y -- Standard deviation of body acceleration derived by linear and angular acceleration in the X direction measured by accelerometer       
+tBodyAccJerk-std()-Z -- Standard deviation of body acceleration derived by linear and angular acceleration in the X direction measured by accelerometer       
 tBodyGyro-mean()-X  -- Mean of body acceleration in the X direction by gyroscope
-tBodyGyro-mean()-Y          
-tBodyGyro-mean()-Z          
+tBodyGyro-mean()-Y  -- Mean of body acceleration in the Y direction by gyroscope        
+tBodyGyro-mean()-Z  -- Mean of body acceleration in the Z direction by gyroscope        
 tBodyGyro-std()-X  -- Standard deviation of body acceleration in the X direction by gyroscope         
-tBodyGyro-std()-Y           
-tBodyGyro-std()-Z           
+tBodyGyro-std()-Y  -- Standard deviation of body acceleration in the Y direction by gyroscope         
+tBodyGyro-std()-Z  -- Standard deviation of body acceleration in the Z direction by gyroscope         
 tBodyGyroJerk-mean()-X -- Mean of body acceleration derived by linear and angular acceleration in the X direction measured by gyroscope           
-tBodyGyroJerk-mean()-Y      
-tBodyGyroJerk-mean()-Z      
+tBodyGyroJerk-mean()-Y -- Mean of body acceleration derived by linear and angular acceleration in the Y direction measured by gyroscope     
+tBodyGyroJerk-mean()-Z -- Mean of body acceleration derived by linear and angular acceleration in the Z direction measured by gyroscope     
 tBodyGyroJerk-std()-X  -- Standard deviation of body acceleration derived by linear and angular acceleration in the X direction measured by gyroscope    
-tBodyGyroJerk-std()-Y       
-tBodyGyroJerk-std()-Z       
+tBodyGyroJerk-std()-Y -- Standard deviation of body acceleration derived by linear and angular acceleration in the Y direction measured by gyroscope       
+tBodyGyroJerk-std()-Z -- Standard deviation of body acceleration derived by linear and angular acceleration in the Z direction measured by gyroscope       
 tBodyAccMag-mean() -- Mean magnitude of body measured by accelerometer        
-tBodyAccMag-std() -- Standard deviation of body measured by accelerometer        
+tBodyAccMag-std() -- Standard deviation of magnitude of body measured by accelerometer        
 tGravityAccMag-mean() -- Mean magnitude of gravity measured by accelerometer       
 tGravityAccMag-std() -- Standard deviation of gravity measured by accelerometer       
-tBodyAccJerkMag-mean()      
-tBodyAccJerkMag-std()       
-tBodyGyroMag-mean()        
-[tBodyGyroMag-std()          
-tBodyGyroJerkMag-mean()    
-tBodyGyroJerkMag-std()     
-fBodyAcc-mean()-X           
-fBodyAcc-mean()-Y           
-fBodyAcc-mean()-Z         
-fBodyAcc-std()-X            
-fBodyAcc-std()-Y            
-fBodyAcc-std()-Z           
-fBodyAccJerk-mean()-X      
-fBodyAccJerk-mean()-Y       
-fBodyAccJerk-mean()-Z      
-fBodyAccJerk-std()-X        
-fBodyAccJerk-std()-Y        
-fBodyAccJerk-std()-Z       
-fBodyGyro-mean()-X          
-fBodyGyro-mean()-Y          
-fBodyGyro-mean()-Z         
-fBodyGyro-std()-X          
-fBodyGyro-std()-Y           
-fBodyGyro-std()-Z
-fBodyAccMag-mean()          
-fBodyAccMag-std()           
-fBodyBodyAccJerkMag-mean() 
-fBodyBodyAccJerkMag-std()   
-fBodyBodyGyroMag-mean()     
-fBodyBodyGyroMag-std()     
-fBodyBodyGyroJerkMag-mean() 
-fBodyBodyGyroJerkMag-std()
+tBodyAccJerkMag-mean() -- Mean magnitude calculated from tBodyAccJerk     
+tBodyAccJerkMag-std() -- Standard deviation of magnitude calculated from tBodyAccJerk      
+tBodyGyroMag-mean() --  Mean magnitude calculated from tBodyGyro       
+tBodyGyroMag-std()  -- Standard deviation of magnitude calcuated from tBodyGyro        
+tBodyGyroJerkMag-mean() -- Mean magnitude calculated from tBodyGyroJerk   
+tBodyGyroJerkMag-std() -- Standard deviation of magnitude calculated from tBodyGyroJerk     
+fBodyAcc-mean()-X -- X direction body mean calculated from Fast Fourier Transformation and accelerometer          
+fBodyAcc-mean()-Y -- Y direction body mean calculated from Fast Fourier Transformation and accelerometer          
+fBodyAcc-mean()-Z -- Z direction body mean calculated from Fast Fourier Transformation and accelerometer        
+fBodyAcc-std()-X -- X direction body standard deviation calculated from Fast Fourier Transformation (FFT) and accelerometer          
+fBodyAcc-std()-Y -- Y direction body standard deviation calculated from Fast Fourier Transformation (FFT) and accelerometer            
+fBodyAcc-std()-Z -- Z direction body standard deviation calculated from Fast Fourier Transformation (FFT) and accelerometer           
+fBodyAccJerk-mean()-X -- Mean of body acceleration derived by linear and angular acceleration in the X direction measured by accelerometer and derived from Fast Fourier Transformation   
+fBodyAccJerk-mean()-Y -- Mean of body acceleration derived by linear and angular acceleration in the Y direction measured by accelerometer and derived from Fast Fourier Transformation        
+fBodyAccJerk-mean()-Z -- Mean of body acceleration derived by linear and angular acceleration in the Z direction measured by accelerometer and derived from Fast Fourier Transformation       
+fBodyAccJerk-std()-X -- Standard deviation of body acceleration derived by linear and angular acceleration in the X direction measured by accelerometer and derived from Fast Fourier Transformation         
+fBodyAccJerk-std()-Y -- Standard deviation of body acceleration derived by linear and angular acceleration in the Y direction measured by accelerometer and derived from Fast Fourier Transformation         
+fBodyAccJerk-std()-Z -- Standard deviation of body acceleration derived by linear and angular acceleration in the Z direction measured by accelerometer and derived from Fast Fourier Transformation        
+fBodyGyro-mean()-X  -- Mean of body acceleration derived by linear and angular acceleration in the X direction measured by gyrometer and derived from Fast Fourier Transformation        
+fBodyGyro-mean()-Y -- Mean of body acceleration derived by linear and angular acceleration in the Y direction measured by gyrometer and derived from Fast Fourier Transformation         
+fBodyGyro-mean()-Z -- Mean of body acceleration derived by linear and angular acceleration in the Z direction measured by gyrometer and derived from Fast Fourier Transformation        
+fBodyGyro-std()-X -- Standard deviation of body acceleration derived by linear and angular acceleration in the X direction measured by gyrometer and derived from Fast Fourier Transformation          
+fBodyGyro-std()-Y -- Standard deviation of body acceleration derived by linear and angular acceleration in the Y direction measured by gyrometer and derived from Fast Fourier Transformation          
+fBodyGyro-std()-Z -- Standard deviation of body acceleration derived by linear and angular acceleration in the Z direction measured by gyrometer and derived from Fast Fourier Transformation
+fBodyAccMag-mean() -- Mean magnitude of FFT body acceleration by accelerometer         
+fBodyAccMag-std() -- Standard deviation of FFT body acceleration by accelerometer        
+fBodyBodyAccJerkMag-mean() -- Mean magnitude of FFT Jerk acceleration by accelerometer
+fBodyBodyAccJerkMag-std() -- Standard deviaiton of FFT body acceleration measured by accelerometer  
+fBodyBodyGyroMag-mean() -- Mean magnitude of FFT body acceleration by gyrometer
+fBodyBodyGyroMag-std()  -- Standard deviation of FFT body acceleration by gyrometer
+fBodyBodyGyroJerkMag-mean() -- Mean magnitude of FFT Jerk acceleration by gyrometer
+fBodyBodyGyroJerkMag-std() -- Standard deviaiton of FFT body acceleration measured by gyrometer
 
