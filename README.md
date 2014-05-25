@@ -1,6 +1,7 @@
 ReadMe
-##Getting-and-Cleaning-Data
 =========================
+##Getting-and-Cleaning-Data
+
 The repository contains an R script titled "run_analysis.R" and CodeBook that identifies the data associated with the R script results. 
 
 The R script manipulates data collected using accelerometers and gyroscope imbedded in the Samsung Galaxy S smartphone. A total of 30 participants preformed different activities while the smartphones were attached to their waist. The resulting metrics were recorded and can be found in the following source. 
